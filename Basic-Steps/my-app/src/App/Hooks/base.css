@@ -1,0 +1,74 @@
+button {
+  background-color: snow;
+  width: 75px;
+  height: 30px;
+
+  border-radius: 12px;
+  border: 0;
+  box-shadow: 2.5px 5px 10px rgb(0, 0, 0, 0.1);
+}
+
+button:hover {
+  background-color: snow;
+  box-shadow: 2.5px 5px 10px rgb(0, 0, 0, 0.3);
+}
+
+section {
+  width: 80%;
+  height: auto;
+  align-self: center;
+  justify-self: center;
+  gap: 1rem;
+
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+
+  box-shadow: 2.5px 5px 10px rgb(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+
+section h1 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+input[type="text"] {
+  align-items: center;
+  justify-self: center;
+  height: 30px;
+  border: 0;
+  box-shadow: 2.5px 5px 10px rgb(0, 0, 0, 0.1);
+  border-radius: 12px 0px 0px 12px;
+  text-align: left;
+  cursor: pointer;
+
+  padding: 0px 0px 0px 30px;
+}
+input[type="text"]:hover {
+  background-color: snow;
+  box-shadow: 2.5px 5px 10px rgb(0, 0, 0, 0.3);
+}
+
+input[type="text"]:focus {
+  border: none;
+  box-shadow: 4px 10px 10px rgb(0, 0, 0, 0.33);
+  outline: none;
+}
+
+input[type="text"]::placeholder {
+  color: #222831;
+  font-size: large;
+}
+.submit {
+  height: 30px;
+  border: 0;
+  box-shadow: 2.5px 5px 10px rgb(0, 0, 0, 0.1);
+  border-radius: 0px 12px 12px 0px;
+}
+
+.submit:hover {
+  background-color: snow;
+  box-shadow: 2.5px 5px 10px rgb(0, 0, 0, 0.3);
+}

@@ -1,0 +1,36 @@
+article {
+  height: 500px;
+  width: 300px;
+
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  justify-content: space-evenly;
+
+  box-shadow: 2.5px 5px 10px rgb(0, 0, 0, 0.15);
+  border-radius: 12px;
+  padding: 2rem;
+  position: relative;
+}
+
+article:hover {
+  box-shadow: 2.5px 5px 10px rgb(0, 0, 0, 0.3);
+  transform: scale(1.1);
+}
+
+img {
+  padding-top: 20px;
+  width: 200px;
+  align-self: center;
+  justify-self: center;
+}
+
+.number {
+  background-color: #dc7633;
+  padding: 5px 7.5px;
+  border-radius: 12px 0px 12px 0px;
+  position: absolute;
+  color: snow;
+  top: 0;
+  left: 0;
+}
